@@ -67,3 +67,9 @@ heures = minutes / 60
 # 11. COUT TOTAL
 
 C_total = C_presence + C_occupation + C_inoccupation + C_pertes
+
+# VOCABULAIRE MATHEU
+
+Régime continu : on reprend le service interrompu là où on l’a laissé.
+
+![alt text]image.png)
