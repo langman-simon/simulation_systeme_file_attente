@@ -72,4 +72,4 @@ C_total = C_presence + C_occupation + C_inoccupation + C_pertes
 
 Régime continu : on reprend le service interrompu là où on l’a laissé.
 
-![alt text]image.png)
+FE(nbStations) = a _ nbStations + B _ fileCumulee/tempsSimule
