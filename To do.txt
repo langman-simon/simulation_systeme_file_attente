@@ -11,3 +11,39 @@ Partie 2:
 ---------
 - Faire le diagramme d'action (3.3.2 p30 syllabus)
 - 
+
+
+CODE AUTRE TEAMS (utile ?)
+
+#include <stdio.h>
+
+double genererReel(const int x0, const int a, const int c, const int m) {
+    const int x1 = (a * x0 + c) % m;
+    return x1;
+}
+
+int main() {
+    int x0;
+    int a;
+    int c;
+    int m;
+    int suiteAleatoire[100];
+
+    printf("Entrer un nombre (x0): ");
+    scanf("%d", &x0);
+    printf("Entrer un nombre (a): ");
+    scanf("%d", &a);
+    printf("Entrer un nombre (c): ");
+    scanf("%d", &c);
+    printf("Entrer un nombre (m): ");
+    scanf("%d", &m);
+
+    int x;
+    suiteAleatoire[0] = x0;
+    for (int i = 1; i < 100; i++)
+    {
+        
+        x = genererReel(x, a, c, m);
+        suiteAleatoire[i] = x;
+    }
+}
