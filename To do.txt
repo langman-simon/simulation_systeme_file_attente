@@ -1,8 +1,5 @@
 Partie 1:
 ---------
-- Test de fréquence correctement (Hugo)
-- Faire tableau avec test fréquence(Hugo)
-- Adapter le code pour que tout s'execute d'un coup
 - Trouvé le x0, a, c, m (pour le générer) 
 
 Partie 2:
